@@ -1,3 +1,6 @@
+/* Problems to be addressed: 
+	1. When I click an operator and then click another operator, it should update the current operator, which it doesn't.
+*/
 
 class Calculator {
 
@@ -42,9 +45,6 @@ class Calculator {
 
 		// // Let's say I clicked 100 +, but decided to change it to -, I'm unable to.
 		// // So this should update the clicked operation as current operation.
-		// else if(this.previousOperand !== null && this.operation.includes('+')) {
-		// 	this.operation = operation;
-		// } 
 
 		this.operation = operation;
 
@@ -144,8 +144,6 @@ class Calculator {
 	}
 
 }
-
-
 
 
 const numberButtons = document.querySelectorAll('[data-number]');
