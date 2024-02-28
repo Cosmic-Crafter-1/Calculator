@@ -1,5 +1,6 @@
 /* Problems to be addressed: 
 	1. When I click an operator and then click another operator, it should update the current operator, which it doesn't.
+	
 */
 
 class Calculator {
