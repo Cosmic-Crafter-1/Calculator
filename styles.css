@@ -114,6 +114,8 @@ button:focus {
 	width: 120px;
 	height: 50px;
 	border-radius: 35px;
+	margin-right: 9px;
+	margin-left: 6px;
 	background-color: rgb(240, 194, 240);
 	color: grey;
 }
@@ -140,7 +142,9 @@ button:focus {
 
 .minus,
 .plus,
-.dot-btn {
+.dot-btn,
+.division,
+.multiplication {
 	font-size: 30px;
 	display: flex;
 	justify-content: center;
@@ -150,4 +154,3 @@ button:focus {
 .dot-btn {
 	margin-bottom: 12px;
 }
-
